@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/form.css">
+    <title>Ankush's page</title>
+</head>
+<body>
+    <header class="structural"> 
+       <h1>Welcome to my website</h1>
+    </header>
+    <nav class="structural">
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <section>
+    <main class="structural">
+      <h2> Contact </h2>
+      <form>
+      <div>
+        <div>
+        <label for="name">Name</label>
+        <input type="text" required autofocus>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" required>
+      </div>
+       <div>
+        <legend>What section of PROG1245 are you in?</legend>
+        <fieldset>
+            <div>
+                <input type="radio" id="4" name="sec" value="4" checked>
+                <label for="sec4">Section 4</label><br>
+            </div>
+            <div>
+                <input type="radio" id="5" name="sec" value="5">
+                <label for="sec5">Section 5</label><br>
+            </div>
+            <div>
+                <input type="radio" id="8" name="sec" value="8">
+                <label for="sec8">Section 8</label><br>
+            </div>
+        </fieldset>
+            <div>
+                 <label for="problem">What do you need help with? </label>
+                <select name="problem" id="problem" required>
+                    <option value="select" selected>Select option</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="both">Both (HTML&CSS)</option>
+                </select>
+            </div>
+            <div>
+                <label for="textarea">Comments</label>
+                <textarea type="text" cols="30" rows="4" required></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="human" name="human" value="true" required>
+                <label >I am a human</label>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+       </div>
+    </form>
+    </main>
+    <aside class="structural">
+     <ul>
+        <h2> List of some popular websites: </h2>
+         <li> 
+        <a href="http://youtube.com"> Youtube </a>
+         </li>
+         <li>
+        <a href="http://google.com"> Google </a>
+         </li>
+     </ul> 
+    </aside>
+</section>
+    <!--- My name is Ankush Ahir. My email address is aahir8881@conestogac.on.ca -->
+    <footer class="structural">
+        <p id="brown"> &copy;, Ankush Ahir, 2024</p>
+    </footer>
+</body>
+</html>

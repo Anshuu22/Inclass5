@@ -1,0 +1,73 @@
+/* Name: Ankush Ahir, Student Number: 8938881 */ 
+
+body {
+    font: italic small-caps bold 24px Helvetica;
+    background-color: hsla(32, 30%, 83%, 0.932);
+    width: 1400px;
+    padding: 30px;
+    margin: 3px 5% auto;
+}
+h1{
+    height: 20vh;
+    width: 90vw;
+    font-size: 100px;
+    color: rgb(24, 142, 38);
+}
+h2{
+    color: rgb(24, 142, 38);
+    font-size: 50px;
+}
+main{
+    float: left;
+    width: 785px;
+}
+aside{
+    float: right;
+    width: 480px;
+}
+.structural{
+    padding: 5px 0;
+    border: 5px solid black;
+    margin: 10px;
+    background-color: hsl(305, 1000%, 50%);
+}
+footer{
+    clear: both;
+}
+#para{
+    color: rgb(91, 30, 0);
+}
+#red{
+    color: rgb(91, 30, 0);
+}
+#blue{
+    color: rgb(91, 30, 0);
+}
+#brown{
+    color: rgb(91, 30, 0);
+}
+aside a:hover{
+    color: #fff;
+}
+li{
+    line-height: 65px;
+}
+footer p {
+    font-size: small;
+}
+nav li {
+    display: inline;
+    list-style: none;
+}
+nav a{
+    border: 2px solid indigo;
+    color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    color: cornsilk;
+    border-color: cornsilk;
+    background-color: indigo;
+}
